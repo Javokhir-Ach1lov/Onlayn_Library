@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/audio"
+    android:title="Audio"
+    android:icon="@drawable/audio"/>
+    <item
+        android:id="@+id/video"
+        android:title="Video"
+        android:icon="@drawable/video"/>
+    <item
+        android:id="@+id/book"
+        android:title="Kitob"
+        android:icon="@drawable/book"/>
+    <item
+        android:id="@+id/profil"
+        android:title="Profil"
+        android:icon="@drawable/profil"/>
+
+</menu>

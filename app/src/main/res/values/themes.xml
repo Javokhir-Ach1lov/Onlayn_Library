@@ -4,7 +4,7 @@
 
          <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryVariant">@color/blue</item>
-        <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:statusBarColor">@color/ui</item>
     </style>
 
     <style name="Theme.OnlaynLibrary" parent="Base.Theme.OnlaynLibrary" />

@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".video_book">
+    tools:context=".book.UzbekActivity">
+
     <ScrollView
         android:id="@+id/video_book"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="0dp">
             <RelativeLayout
-                android:backgroundTint="#4DC9DC"
-                android:background="@drawable/rounder_corner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -28,9 +26,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginStart="20dp"
                         android:src="@drawable/hh"/>
                     <LinearLayout
@@ -41,6 +39,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+
                             android:text="O'tgan kunlar"
                             android:textColor="@color/black"
                             android:textStyle="bold"
@@ -49,30 +48,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
                             android:text="Abdulla Qodiriy"/>
-                        <TextView
-                            android:id="@+id/video1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_marginRight="2dp"
-                            android:padding="20dp"
-                            android:text="2 soat 39 minut"
-                            android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="15dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="38dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
+                    android:text="145 bet"/>
             </RelativeLayout>
             <RelativeLayout
-                android:backgroundTint="#4DC9DC"
-                android:background="@drawable/rounder_corner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -82,11 +68,52 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha"/>
+                        android:src="@drawable/hh"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Alisher Navoiy"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="26sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Oybek"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:layout_alignParentRight="true"
+                    android:text="180 bet"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:id="@+id/btn3">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="20dp"
+                        android:src="@drawable/hh"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -103,43 +130,31 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Cho'lpon"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_marginRight="2dp"
-                            android:padding="20dp"
-                            android:text="2 soat 20 minut"
-                            android:textColor="#E11E1E" />
+                            android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="15dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="48dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
+                    android:text="175 bet"/>
             </RelativeLayout>
             <RelativeLayout
-                android:backgroundTint="#4DC9DC"
-                android:background="@drawable/rounder_corner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:id="@+id/btn3">
+                android:id="@+id/btn4">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha"/>
+                        android:src="@drawable/hh"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -148,7 +163,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Yulduzli tunlar"
+
+                            android:text="O'tgan kunlar"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="26sp"/>
@@ -156,26 +172,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Pirimqul Qodirov"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_marginRight="2dp"
-                            android:padding="20dp"
-                            android:text="2 soat 14 minut"
-                            android:textColor="#E11E1E" />
+                            android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="15dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="38dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
+                    android:text="300 bet"/>
             </RelativeLayout>
+
         </LinearLayout>
     </ScrollView>
-</FrameLayout>
+</LinearLayout>

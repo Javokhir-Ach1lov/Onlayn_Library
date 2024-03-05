@@ -19,7 +19,7 @@ class video_book : Fragment() {
         binding = FragmentVideoBookBinding.inflate(layoutInflater)
 
         binding.btn1.setOnClickListener {
-            val url = "https://firebasestorage.googleapis.com/v0/b/onlayn-library-a8bf4.appspot.com/o/Video_book%2Fvideo_2024-02-27_02-47-47.mp4?alt=media&token=db3c15ca-709e-4fe8-8b89-ecb6503fd09e"
+            val url = "https://firebasestorage.googleapis.com/v0/b/onlayn-library-a8bf4.appspot.com/o/Video_book%2FO'tgan_kunlar_o'zbek_film___Уткан.mp4?alt=media&token=43c50909-af2f-4d08-b1d7-764f4dd0b410"
             goToPlayerPaget(url)
         }
 
@@ -28,15 +28,6 @@ class video_book : Fragment() {
             goToPlayerPaget(url)
         }
 
-        binding.btn3.setOnClickListener {
-            val url = ""
-            goToPlayerPaget(url)
-        }
-
-        binding.btn4.setOnClickListener {
-            val url = ""
-            goToPlayerPaget(url)
-        }
 
         return binding.root
     }

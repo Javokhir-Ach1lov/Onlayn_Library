@@ -1,18 +1,28 @@
 package uz.javokhir_apps.onlaynlibrary
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import uz.javokhir_apps.onlaynlibrary.book.UzbekActivity
+import uz.javokhir_apps.onlaynlibrary.databinding.FragmentKitobBinding
 
 class Kitob : Fragment() {
-
+lateinit var binding: FragmentKitobBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_kitob, container, false)
+        binding = FragmentKitobBinding.inflate(layoutInflater)
+
+
+        binding.btn1.setOnClickListener {
+            val intent = Intent(requireContext(), UzbekActivity::class.java)
+            startActivity(intent)
+        }
+        return binding.root
     }
+
 }

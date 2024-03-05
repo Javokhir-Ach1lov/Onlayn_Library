@@ -10,7 +10,7 @@ import uz.javokhir_apps.onlaynlibrary.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityLoginBinding
+    private lateinit var binding:ActivityLoginBinding
     private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
                 if (pass == confirmPass) {
                     firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
                         if (it.isSuccessful) {
-                            val intent= Intent(this,LoginActivity::class.java)
+                            val intent= Intent(this,SingInActivity::class.java)
                             startActivity(intent)
                         } else {
                             Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()

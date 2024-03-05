@@ -22,8 +22,6 @@
         android:background="@color/blue"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
-        app:itemIconSize="30dp"
+        app:itemIconSize="25dp"
         app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"/>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

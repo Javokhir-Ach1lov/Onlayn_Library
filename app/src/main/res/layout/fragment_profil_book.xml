@@ -15,7 +15,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none"
         android:layout_marginBottom="0dp">
 
         <LinearLayout
@@ -201,7 +200,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:id="@+id/aloqa"
+                    android:id="@+id/telephon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -249,7 +248,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/instagram"
+                    android:id="@+id/telegram"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -296,6 +295,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/pochta"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -303,7 +303,7 @@
                     android:padding="20dp">
 
                     <LinearLayout
-                        android:id="@+id/telegram"
+                        android:id="@+id/jj"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="2"
@@ -343,6 +343,4 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
-
 </FrameLayout>

@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(Profil_book())
                     true
                 }
+                R.id.quotes->{
+                    replaceFragment(QuotesFragment())
+                    true
+                }
                 else->false
             }
         }

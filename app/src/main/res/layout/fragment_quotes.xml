@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuotesFragment">
+
+    <ScrollView
+        android:id="@+id/video_book"
+        android:paddingBottom="85dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <RelativeLayout
+                android:id="@+id/quotes"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#FFD600">
+
+                <TextView
+                    android:id="@+id/quote1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="italic"
+                    android:layout_marginStart="5dp"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="80dp"
+                    android:src="@drawable/share" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

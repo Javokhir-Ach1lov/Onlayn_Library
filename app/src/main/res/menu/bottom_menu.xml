@@ -10,11 +10,16 @@
         android:icon="@drawable/video"/>
     <item
         android:id="@+id/book"
-        android:title="Kitob"
+        android:title="Book"
         android:icon="@drawable/book"/>
     <item
+        android:id="@+id/quotes"
+        android:title="Quotes"
+        android:icon="@drawable/quote"/>
+    <item
         android:id="@+id/profil"
-        android:title="Profil"
+        android:title="Profile"
         android:icon="@drawable/profil"/>
+
 
 </menu>

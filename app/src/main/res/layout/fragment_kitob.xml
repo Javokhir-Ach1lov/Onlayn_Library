@@ -10,9 +10,9 @@
     tools:context=".Kitob">
     <ScrollView
         android:id="@+id/video_book"
-        android:paddingBottom="5dp"
+        android:paddingBottom="85dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginRight="6dp"
             android:background="@drawable/rounder_corner"
-            android:backgroundTint="#469868">
+            android:backgroundTint="#FFD600">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="20dp"
-                    android:src="@drawable/ozbek" />
+                    android:src="@drawable/uzbekistan" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -55,16 +55,8 @@
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"
-                    android:gravity="center_vertical"/>
+                    android:layout_gravity="center"/>
             </LinearLayout>
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_gravity="center"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/uzbekistan" />
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/btn2"
@@ -74,7 +66,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginRight="6dp"
             android:background="@drawable/rounder_corner"
-            android:backgroundTint="#469868">
+            android:backgroundTint="#FF6D00">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -86,7 +78,7 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="20dp"
-                    android:src="@drawable/jaxon" />
+                    android:src="@drawable/ggg" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -101,16 +93,9 @@
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"
-                    android:gravity="center_vertical"/>
+                    android:layout_gravity="center"/>
             </LinearLayout>
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_gravity="center"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/ggg" />
+
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/btn3"
@@ -120,7 +105,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginRight="6dp"
             android:background="@drawable/rounder_corner"
-            android:backgroundTint="#469868">
+            android:backgroundTint="#64DD17">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -132,7 +117,7 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="20dp"
-                    android:src="@drawable/bolalar" />
+                    android:src="@drawable/reading" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -147,16 +132,9 @@
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"
-                    android:gravity="center_vertical"/>
+                    android:layout_gravity="center"/>
             </LinearLayout>
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_gravity="center"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/vvv" />
+
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/btn4"
@@ -166,7 +144,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginRight="6dp"
             android:background="@drawable/rounder_corner"
-            android:backgroundTint="#469868">
+            android:backgroundTint="#FFD600">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -178,7 +156,7 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="20dp"
-                    android:src="@drawable/jaxon" />
+                    android:src="@drawable/nnn" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -193,16 +171,8 @@
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"
-                    android:gravity="center_vertical"/>
+                    android:layout_gravity="center"/>
             </LinearLayout>
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_gravity="center"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/nnn" />
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/btn5"
@@ -212,7 +182,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginRight="6dp"
             android:background="@drawable/rounder_corner"
-            android:backgroundTint="#469868">
+            android:backgroundTint="#0091EA">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -224,7 +194,7 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="20dp"
-                    android:src="@drawable/ozbek" />
+                    android:src="@drawable/tarixiy" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -235,20 +205,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tarixiy adabiyoti"
+                    android:text="Tarixiy adabiyotlar"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"
-                    android:gravity="center_vertical"/>
+                    android:layout_gravity="center"/>
             </LinearLayout>
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_gravity="center"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/uzbekistan" />
+
         </RelativeLayout>
     </LinearLayout>
     </ScrollView>

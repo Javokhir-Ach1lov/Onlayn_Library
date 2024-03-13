@@ -1,5 +1,6 @@
 package uz.javokhir_apps.onlaynlibrary
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -17,25 +18,32 @@ class Profil_book : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding= FragmentProfilBookBinding.inflate(layoutInflater)
+        binding = FragmentProfilBookBinding.inflate(layoutInflater)
 
         binding.telephon.setOnClickListener {
             val intent = Intent(Intent.ACTION_DIAL).apply {
                 data = Uri.parse("tel:+998930696374")
             }
-        binding.telegram.setOnClickListener {
-            val telegramUsername = "Javokhir_achilov"
-            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/Javokhir_achilov"))
             startActivity(intent)
         }
+        binding.github.setOnClickListener {
+            val username = "Javokhir-Ach1lov" // GitHub profil nomini yozing
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/$username"))
+            startActivity(intent)
+        }
+
+        binding.telegram.setOnClickListener {
+            val telegramUsername = "JavokhirachilovBlog"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/$telegramUsername"))
+            startActivity(intent)
+        }
+
         binding.pochta.setOnClickListener {
             val intent = Intent(Intent.ACTION_SENDTO).apply {
                 data = Uri.parse("mailto:achilojavokhir@gmail.com")
                 putExtra(Intent.EXTRA_SUBJECT, "Subject")
                 putExtra(Intent.EXTRA_TEXT, "Message body")
             }
-        }
-            startActivity(intent)
         }
 
         return binding.root

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Onlayn Library</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
-
+    <string name="Navoiy">Add one and half cup of water
+\nAdd maggi noodles and boil it
+\nAdd the maggi masala on to it
+\nWait for 2 mins
+\nMaggi is ready!</string>
 </resources>

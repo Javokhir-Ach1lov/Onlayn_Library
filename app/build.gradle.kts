@@ -59,6 +59,6 @@ dependencies {
     implementation("androidx.media3:media3-ui:1.2.1")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
-
+    implementation ("com.itextpdf:itextpdf:5.5.13")
     implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
 }

@@ -24,19 +24,18 @@
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginRight="6dp"
-                android:background="@drawable/rounder_corner"
-                android:backgroundTint="#FFD600">
+                android:background="#FFD600">
 
                 <TextView
                     android:id="@+id/quote1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:text="Bir narsa haqida ba'zi narsalarni bilishga qodir bo'lib qolish juda muhimdir"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="italic"
                     android:layout_marginStart="5dp"
-                    android:layout_gravity="center"/>
+                    android:layout_centerHorizontal="true"/>
                 <ImageView
                     android:id="@+id/share"
                     android:layout_width="30dp"

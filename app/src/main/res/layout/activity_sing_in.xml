@@ -12,7 +12,6 @@
 
     </LinearLayout>
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
         style="@style/LoginTextInputOuterFieldStyle"

@@ -20,12 +20,6 @@ class QuotesFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_quotes, container, false)
 
-
-        val resources = resources
-        val quote1 = resources.getString(R.string.Navoiy)
-
-
-        // Share text when Share button is clicked
         view.findViewById<View>(R.id.share).setOnClickListener {
             val subject = "Share Subject"
             val body = "Your text here"

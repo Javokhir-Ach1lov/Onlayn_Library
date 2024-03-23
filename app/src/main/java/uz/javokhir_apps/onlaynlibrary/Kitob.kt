@@ -10,19 +10,18 @@ import uz.javokhir_apps.onlaynlibrary.book.UzbekActivity
 import uz.javokhir_apps.onlaynlibrary.databinding.FragmentKitobBinding
 
 class Kitob : Fragment() {
-lateinit var binding: FragmentKitobBinding
+    lateinit var binding: FragmentKitobBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentKitobBinding.inflate(layoutInflater)
-
+        binding = FragmentKitobBinding.inflate(inflater, container, false)
 
         binding.btn1.setOnClickListener {
             val intent = Intent(requireContext(), UzbekActivity::class.java)
             startActivity(intent)
         }
+
         return binding.root
     }
-
 }

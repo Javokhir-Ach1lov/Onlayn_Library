@@ -15,7 +15,7 @@
     <item
         android:id="@+id/quotes"
         android:title="Quotes"
-        android:icon="@drawable/quote"/>
+        android:icon="@drawable/quotes"/>
     <item
         android:id="@+id/profil"
         android:title="Profile"

@@ -13,6 +13,12 @@
         android:theme="@style/Theme.OnlaynLibrary"
         tools:targetApi="31">
         <activity
+            android:name=".book.JaxonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.UzbekAudio"
+            android:exported="false" />
+        <activity
             android:name=".book.navoiybook"
             android:exported="false" />
         <activity

@@ -1,11 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.OnlaynLibrary" parent="Theme.Material3.DayNight.NoActionBar">
-
-         <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryVariant">@color/blue</item>
         <item name="android:statusBarColor">@color/ui</item>
+
+        <!-- Fragment transition animations -->
+        <item name="android:windowEnterAnimation">@anim/fragment_open_enter</item>
+        <item name="android:windowExitAnimation">@anim/fragment_open_exit</item>
+<!--        <item name="android:windowReenterAnimation">@anim/fragment_close_enter</item>-->
+<!--        <item name="android:windowReturnAnimation">@anim/fragment_close_exit</item>-->
     </style>
+
+
+
 
     <style name="Theme.OnlaynLibrary" parent="Base.Theme.OnlaynLibrary" />
 
@@ -19,6 +27,7 @@
         <item name="android:layout_marginTop">15dp</item>
         <item name="android:layout_marginBottom">15dp</item>
     </style>
+
     <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -27,7 +36,5 @@
         <item name="maxLines">1</item>
         <item name="android:textSize">14sp</item>
         <item name="singleLine">true</item>
-
-
     </style>
 </resources>

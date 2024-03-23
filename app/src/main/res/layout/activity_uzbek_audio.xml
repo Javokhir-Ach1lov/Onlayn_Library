@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".book.UzbekActivity">
+    tools:context=".audio.UzbekAudio">
 
     <ScrollView
         android:id="@+id/video_book"
@@ -18,7 +18,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginStart="5dp"
@@ -26,13 +26,14 @@
                 android:id="@+id/btn1">
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
                     <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginStart="20dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
                         android:src="@drawable/hh"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -42,11 +43,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:text="O'tgan kunlar"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -54,15 +54,16 @@
                             android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:src="@drawable/audio"
                     android:padding="15dp"
                     android:layout_alignParentRight="true" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginStart="5dp"
@@ -70,60 +71,15 @@
                 android:id="@+id/btn2">
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
                     <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginStart="20dp"
-                        android:src="@drawable/oybek"/>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Navoiy"
-                            android:textColor="@color/black"
-                            android:textSize="26sp"
-                            android:textStyle="bold" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="Oybek"/>
-                    </LinearLayout>
-                </LinearLayout>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="15dp"
-                    android:textColor="@color/ui"
-                    android:layout_alignParentRight="true"
-                    android:text="180 bet"/>
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginStart="5dp"
-                android:background="@drawable/rounder_corner_2"
-                android:id="@+id/btn3">
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginVertical="10dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="100dp"
-                        android:layout_marginStart="20dp"
-                        android:src="@drawable/urush"/>
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/hh"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -132,24 +88,23 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Urushning so'ngi qurboni"
+                            android:text=""
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="O'tkir Xoshimov"/>
+                            android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:src="@drawable/audio"
                     android:padding="15dp"
-                    android:textColor="@color/ui"
-                    android:layout_alignParentRight="true"
-                    android:text="180 bet"/>
+                    android:layout_alignParentRight="true" />
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>

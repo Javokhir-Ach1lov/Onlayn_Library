@@ -1,9 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Audio_book">
+    android:padding="16dp"
+    android:windowEnterAnimation="@anim/fragment_open_enter"
+    android:windowExitAnimation="@anim/fragment_open_exit"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false">
+
+    <RelativeLayout
+        android:id="@+id/btn11"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounder_corner"
+        android:backgroundTint="#FFD600"
+        android:layout_columnWeight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/sheriyat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sheriyat"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn22"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounder_corner"
+        android:backgroundTint="#FF6D00"
+        android:layout_columnWeight="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/ertakalr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ertaklar"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_below="@id/imageView1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn33"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounder_corner"
+        android:backgroundTint="#64DD17"
+        android:layout_columnWeight="1">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="112dp"
+            android:layout_height="109dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/gazal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G'azallar"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn44"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounder_corner"
+        android:backgroundTint="#FFD600"
+        android:layout_columnWeight="1">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/nazm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView3"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Nazm"
+            android:layout_marginStart="50dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn55"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounder_corner"
+        android:backgroundTint="#0091EA"
+        android:layout_columnWeight="1">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="126dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/qissa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qissa"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_below="@id/imageView4"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="50dp"/>
 
 
-</FrameLayout>
+    </RelativeLayout>
+
+</GridLayout>

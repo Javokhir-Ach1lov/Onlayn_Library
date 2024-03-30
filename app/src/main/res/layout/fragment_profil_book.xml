@@ -12,11 +12,6 @@
         android:layout_height="300dp"
         android:background="#64DD17" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="110dp">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -44,7 +39,7 @@
                         android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:src="@drawable/library" />
+                        android:src="@drawable/onlaynlibrary" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -56,11 +51,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/app_name"
-                        android:textColor="#424242"
+                        android:text="Obline Library"
+                        android:textColor="#0E0E0E"
                         android:textSize="34sp"
                         android:layout_gravity="center"
-                        android:textStyle="bold" />
+                        android:textStyle="italic" />
 
                     <TextView
                         android:textColor="@color/black"
@@ -194,6 +189,10 @@
 
             </LinearLayout>
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="110dp">
             <!--Experience Bottom Cards-->
             <LinearLayout
                 android:id="@+id/experience"
@@ -241,7 +240,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
-                                android:text="+998930696374"
+                                android:text="+998 90 141 73 31"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -385,10 +384,12 @@
                                 android:layout_marginTop="3dp"
                                 android:text="achilojavokhir@gmail.com"
                                 android:textSize="12sp" />
+
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
+
             </LinearLayout>
+            </ScrollView>
         </LinearLayout>
-    </ScrollView>
 </FrameLayout>

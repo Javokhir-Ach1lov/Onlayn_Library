@@ -13,6 +13,33 @@
         android:theme="@style/Theme.OnlaynLibrary"
         tools:targetApi="31">
         <activity
+            android:name=".book.BooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.MusicPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".book.BolalarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".book.TarixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".book.XorijActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.QissaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.NazmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.GazallarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.ErtaklarActivity"
+            android:exported="false" />
+        <activity
             android:name=".book.JaxonActivity"
             android:exported="false" />
         <activity
@@ -38,6 +65,9 @@
             android:exported="false" />
         <activity
             android:name=".login.SingInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".book.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

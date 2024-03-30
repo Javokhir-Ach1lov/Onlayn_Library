@@ -22,7 +22,7 @@ class Profil_book : Fragment() {
 
         binding.telephon.setOnClickListener {
             val intent = Intent(Intent.ACTION_DIAL).apply {
-                data = Uri.parse("tel:+998930696374")
+                data = Uri.parse("tel:+998 90 141 73 31")
             }
             startActivity(intent)
         }
@@ -33,7 +33,7 @@ class Profil_book : Fragment() {
         }
 
         binding.telegram.setOnClickListener {
-            val telegramUsername = "JavokhirachilovBlog"
+            val telegramUsername = "MashkhuraErgasheva"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/$telegramUsername"))
             startActivity(intent)
         }

@@ -6,7 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import uz.javokhir_apps.onlaynlibrary.book.BolalarActivity
+import uz.javokhir_apps.onlaynlibrary.book.JaxonActivity
+import uz.javokhir_apps.onlaynlibrary.book.TarixActivity
 import uz.javokhir_apps.onlaynlibrary.book.UzbekActivity
+import uz.javokhir_apps.onlaynlibrary.book.XorijActivity
 import uz.javokhir_apps.onlaynlibrary.databinding.FragmentKitobBinding
 
 class Kitob : Fragment() {
@@ -19,6 +23,22 @@ class Kitob : Fragment() {
 
         binding.btn1.setOnClickListener {
             val intent = Intent(requireContext(), UzbekActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btn2.setOnClickListener {
+            val intent = Intent(requireContext(), XorijActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btn12.setOnClickListener {
+            val intent = Intent(requireContext(), JaxonActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btn3.setOnClickListener {
+            val intent = Intent(requireContext(), TarixActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btn34.setOnClickListener {
+            val intent = Intent(requireContext(), BolalarActivity::class.java)
             startActivity(intent)
         }
 

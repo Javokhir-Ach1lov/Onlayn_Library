@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".audio.MusicPlayerActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Online Library"
+    android:textSize="40sp"
+    android:gravity="center"
+    android:layout_marginTop="18dp"
+    android:textColor="@color/white"/>
+    <ImageView
+        android:id="@+id/iv_music"
+        android:layout_width="360dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/onlaynlibrary" />
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:layout_below="@id/iv_music"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="12dp" />
+
+</RelativeLayout>

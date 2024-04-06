@@ -1,5 +1,6 @@
 package uz.javokhir_apps.onlaynlibrary.audio
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -7,6 +8,10 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdRequest.*
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import uz.javokhir_apps.onlaynlibrary.databinding.ActivityMediaPlayerBinding
 import uz.javokhir_apps.onlaynlibrary.R
 import uz.javokhir_apps.onlaynlibrary.databinding.ActivityMusicPlayerBinding
@@ -15,11 +20,17 @@ class MusicPlayerActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMusicPlayerBinding
     lateinit var player: ExoPlayer
+    lateinit var mAdView : AdView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityMusicPlayerBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        mAdView=findViewById(R.id.adView)
+        MobileAds.initialize(this) {}
+        val adRequest = Builder().build()
+        mAdView.loadAd(adRequest)
 
         val url=intent.getStringExtra("url")
 

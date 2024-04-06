@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".audio.GazallarActivity">
+    tools:context=".audio.HikoyaActivity">
 
     <ScrollView
         android:id="@+id/video_book"
@@ -43,7 +43,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Judo radufli g'azali"
+                            android:text="O'tgan kunlar H"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
@@ -51,7 +51,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Ogahiy Muhammadrizo"/>
+                            android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -88,7 +88,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Yoshlik chog'larim"
+                            android:text="Kecha va Kunduz"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
@@ -96,7 +96,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="O'zbek adabiyoti"/>
+                            android:text="Cho'lpon"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -133,7 +133,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Uvaysiyman"
+                            android:text="O'tgan kunlar"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
@@ -141,7 +141,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Uvaysiy Jahon otin"/>
+                            android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -178,7 +178,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Jomiy"
+                            android:text="Kecha va Kunduz"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
@@ -186,7 +186,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="O'zbek adabiyoti"/>
+                            android:text="Cho'lpon"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -223,7 +223,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Vosit Sa'dulla"
+                            android:text="O'tgan kunlar"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
@@ -231,7 +231,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="O'zbek adabiyoti"/>
+                            android:text="Abdulla Qodiriy"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -268,7 +268,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Oyqiz"
+                            android:text="Kecha va Kunduz"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
@@ -276,7 +276,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Bolalar adabiyoti"/>
+                            android:text="Cho'lpon"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView

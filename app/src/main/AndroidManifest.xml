@@ -13,6 +13,12 @@
         android:theme="@style/Theme.OnlaynLibrary"
         tools:targetApi="31">
         <activity
+            android:name=".book.ErtaklarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".audio.HikoyaActivity"
+            android:exported="false" />
+        <activity
             android:name=".book.BooksActivity"
             android:exported="false" />
         <activity
@@ -75,6 +81,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2081177746555992~1018266644"/>
     </application>
 
 </manifest>

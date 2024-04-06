@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".book.JaxonActivity">
+    tools:context=".book.ErtaklarActivity">
 
     <ScrollView
         android:id="@+id/video_book"
@@ -15,12 +15,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="0dp">
-
-            <SearchView
-                android:id="@+id/searchView"
-                android:background="@color/ui"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -48,23 +42,22 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
-                            android:text="Atom odatlari"
+                            android:text="Qizil qalpoqcha"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Abdulla Qodiriy"/>
+                            android:text="O'zbek xalq ertagi"/>
                     </LinearLayout>
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
-                    android:text="120 bet"
+                    android:text="40 bet"
                     android:layout_alignParentRight="true" />
             </RelativeLayout>
             <RelativeLayout

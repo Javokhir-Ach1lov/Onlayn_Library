@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+
 }
 
 android {
@@ -60,5 +61,10 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.itextpdf:itextpdf:5.5.13")
+    implementation("com.android.support:cardview-v7:28.0.0-rc02")
     implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
+    implementation ("com.android.support:design:28.0.0-alpha3")
+    implementation ("com.google.android.gms:play-services-ads:20.5.0")
+
+
 }

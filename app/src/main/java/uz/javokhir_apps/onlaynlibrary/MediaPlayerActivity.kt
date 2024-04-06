@@ -7,19 +7,27 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import uz.javokhir_apps.onlaynlibrary.databinding.ActivityMediaPlayerBinding
 
 class MediaPlayerActivity : AppCompatActivity() {
 
     lateinit var binding:ActivityMediaPlayerBinding
-
     lateinit var player: ExoPlayer
+    lateinit var mAdView: AdView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivityMediaPlayerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        MobileAds.initialize(this) {}
+
+        val mAdView: AdView = findViewById(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
 
         val url=intent.getStringExtra("url")
 

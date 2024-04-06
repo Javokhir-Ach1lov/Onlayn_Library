@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import uz.javokhir_apps.onlaynlibrary.audio.ErtaklarActivity
 import uz.javokhir_apps.onlaynlibrary.audio.GazallarActivity
+import uz.javokhir_apps.onlaynlibrary.audio.HikoyaActivity
 import uz.javokhir_apps.onlaynlibrary.audio.NazmActivity
 import uz.javokhir_apps.onlaynlibrary.audio.QissaActivity
 import uz.javokhir_apps.onlaynlibrary.audio.UzbekAudio
@@ -32,16 +33,20 @@ class Audio_book : Fragment() {
             val intent=Intent(requireContext(),ErtaklarActivity::class.java)
             startActivity(intent)
         }
-        binding.btn12.setOnClickListener {
+        binding.btn3.setOnClickListener {
             val intent=Intent(requireContext(),GazallarActivity::class.java)
             startActivity(intent)
         }
-        binding.btn3.setOnClickListener {
+        binding.btn4.setOnClickListener {
             val intent=Intent(requireContext(),NazmActivity::class.java)
             startActivity(intent)
         }
-        binding.btn34.setOnClickListener {
+        binding.btn5.setOnClickListener {
             val intent=Intent(requireContext(),QissaActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btn6.setOnClickListener {
+            val intent=Intent(requireContext(),HikoyaActivity::class.java)
             startActivity(intent)
         }
 

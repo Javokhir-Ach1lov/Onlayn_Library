@@ -12,11 +12,13 @@
 
         <SearchView
             android:id="@+id/searchView"
-            android:background="@color/ui"
+            android:background="@color/light_gray"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <ListView
+            android:background="@color/white"
+            android:layout_marginTop="2dp"
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="0dp"

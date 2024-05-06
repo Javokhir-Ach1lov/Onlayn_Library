@@ -38,10 +38,13 @@ android {
     buildFeatures{
   viewBinding=true
     }
+    dataBinding {
+        enable = true
+    }
 }
 
 dependencies {
-
+    implementation("com.airbnb.android:lottie:4.2.0" )
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
@@ -61,6 +64,7 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.itextpdf:itextpdf:5.5.13")
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.22")
     implementation("com.android.support:cardview-v7:28.0.0-rc02")
     implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
     implementation ("com.android.support:design:28.0.0-alpha3")

@@ -1,56 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".video_book">
-    <ScrollView
-        android:id="@+id/video_book"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/constraintLayout"
+        android:layout_marginTop="4dp">
+
+    <TextView
+        android:id="@+id/amazonName"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Online Library"
+        android:textColor="@color/lavender"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/amazonImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amazonDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:text="Eng sara elektron kitoblar faqat bizda"
+        android:textColor="@color/lavender"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/amazonImage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/amazonName" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:id="@+id/amazonImage"
+        android:src="@drawable/onlaynlibrary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toEndOf="@id/amazonName"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--        video boshlanish tugmalari-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="540dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="0dp">
+            android:padding="0dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="144dp">
+
             <RelativeLayout
-                android:backgroundTint="#CCFF90"
-                android:background="@drawable/rounder_corner"
+                android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:layout_marginTop="16dp"
-                android:id="@+id/btn1">
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#CCFF90">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/hh" />
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="O'tgan kunlar"
                             android:textColor="@color/black"
-                            android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="26sp"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Abdulla Qodiriy"/>
+                            android:text="Abdulla Qodiriy"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:id="@+id/video1"
                             android:layout_width="wrap_content"
@@ -62,6 +118,7 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -70,41 +127,48 @@
                     android:layout_marginRight="20dp"
                     android:src="@drawable/icons" />
             </RelativeLayout>
+
             <RelativeLayout
-                android:backgroundTint="#84FFFF"
-                android:background="@drawable/rounder_corner"
+                android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="16dp"
-                android:id="@+id/btn2">
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#84FFFF">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha"/>
+                        android:src="@drawable/kecha" />
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Kecha va Kunduz"
                             android:textColor="@color/black"
-                            android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="26sp"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Cho'lpon"/>
+                            android:text="Cho'lpon"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -115,6 +179,7 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -123,41 +188,48 @@
                     android:layout_marginRight="20dp"
                     android:src="@drawable/icons" />
             </RelativeLayout>
+
             <RelativeLayout
-                android:backgroundTint="#B388FF"
-                android:background="@drawable/rounder_corner"
+                android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="16dp"
-                android:id="@+id/btn3">
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#B388FF">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha"/>
+                        android:src="@drawable/kecha" />
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Yulduzli tunlar"
                             android:textColor="@color/black"
-                            android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="26sp"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Pirimqul Qodirov"/>
+                            android:text="Pirimqul Qodirov"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -168,6 +240,7 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -176,41 +249,48 @@
                     android:layout_marginRight="20dp"
                     android:src="@drawable/icons" />
             </RelativeLayout>
+
             <RelativeLayout
-                android:backgroundTint="#FFD180"
-                android:background="@drawable/rounder_corner"
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="16dp"
-                android:id="@+id/btn4">
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#FFD180">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha"/>
+                        android:src="@drawable/kecha" />
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Sariq devni minib"
                             android:textColor="@color/black"
-                            android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="26sp"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Xudoyberdi To'xtaboyev"/>
+                            android:text="Xudoyberdi To'xtaboyev"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -221,6 +301,7 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -229,41 +310,109 @@
                     android:layout_marginRight="20dp"
                     android:src="@drawable/icons" />
             </RelativeLayout>
+
             <RelativeLayout
-                android:backgroundTint="#FF9E80"
-                android:background="@drawable/rounder_corner"
+                android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="16dp"
-                android:id="@+id/btn5">
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#FF9E80">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha"/>
+                        android:src="@drawable/kecha" />
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jannat onalar oyog' ostida"
+                            android:textColor="@color/black"
+                            android:textSize="26sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Qozoq filimi"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:padding="2dp"
+                            android:text="2 soat 20 minut"
+                            android:textColor="#E11E1E" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/icons" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounder_corner"
+                android:backgroundTint="#FF9E80">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="20dp"
+                        android:src="@drawable/kecha" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Tangalik bolalr"
                             android:textColor="@color/black"
-                            android:textStyle="bold"
-                            android:textSize="26sp"/>
+                            android:textSize="26sp"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:textStyle="bold"
-                            android:text="Xudoyberdi To'xtaboyev"/>
+                            android:text="Xudoyberdi To'xtaboyev"
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -274,6 +423,7 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -281,7 +431,11 @@
                     android:layout_marginTop="28dp"
                     android:layout_marginRight="20dp"
                     android:src="@drawable/icons" />
+
             </RelativeLayout>
+
         </LinearLayout>
+
     </ScrollView>
-</FrameLayout>
+
+    </LinearLayout>

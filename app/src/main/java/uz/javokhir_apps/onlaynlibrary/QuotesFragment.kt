@@ -56,7 +56,7 @@ class QuotesFragment : Fragment() {
         // ListView chiroyliroq qilish
         listView.setBackgroundColor(resources.getColor
         // Fon rangi o'zgartirish
-                (com.bumptech.glide.R.color.abc_background_cache_hint_selector_material_dark))
+                (uz.javokhir_apps.onlaynlibrary.R.color.white))
         // Qatlar orasidagi farqni kattalashtirish
         listView.dividerHeight = 10
         // ListView ni ichki joylarini o'zgartirish

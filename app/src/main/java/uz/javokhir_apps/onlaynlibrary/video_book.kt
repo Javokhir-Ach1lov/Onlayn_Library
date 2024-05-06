@@ -23,12 +23,6 @@ class video_book : Fragment() {
             goToPlayerPaget(url)
         }
 
-        binding.btn2.setOnClickListener {
-            val url = ""
-            goToPlayerPaget(url)
-        }
-
-
         return binding.root
     }
 

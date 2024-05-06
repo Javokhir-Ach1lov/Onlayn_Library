@@ -15,7 +15,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="0dp">
-
+            <SearchView
+                android:id="@+id/searchView"
+                android:background="@color/light_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
@@ -44,7 +48,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="O'tgan kunlar H"
-                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
@@ -89,7 +92,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Kecha va Kunduz"
-                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
@@ -134,7 +136,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="O'tgan kunlar"
-                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
@@ -179,7 +180,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Kecha va Kunduz"
-                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
@@ -224,7 +224,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="O'tgan kunlar"
-                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
@@ -269,7 +268,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Kecha va Kunduz"
-                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView

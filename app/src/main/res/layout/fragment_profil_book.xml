@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="#64DD17" />
+        android:background="#A87BE636" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,9 +20,10 @@
             android:paddingTop="10dp"
             android:paddingRight="10dp">
             <LinearLayout
+                android:animateLayoutChanges="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFFF8D"
+                android:background="#9A8DC4FF"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="25dp">
@@ -39,7 +40,7 @@
                         android:layout_height="100dp"
                         android:scaleType="centerCrop"
                         android:layout_gravity="center"
-                        android:src="@drawable/onlaynlibrary" />
+                        android:src="@drawable/jura" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -93,7 +94,7 @@
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="45+"
+                                android:text="35+"
                                 android:layout_gravity="center"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -127,7 +128,7 @@
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="50+"
+                                android:text="60+"
                                 android:layout_gravity="center"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
@@ -286,7 +287,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
-                                android:text="Javokhir-Ach1lov"
+                                android:text="Mashxura_Ergasheva"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
@@ -318,7 +319,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:orientation="vertical">
-
                             <TextView
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
@@ -326,20 +326,17 @@
                                 android:text="Telegram"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
-
                             <TextView
                                 android:textColor="@color/black"
                                 android:textStyle="bold"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
-                                android:text="Javokhir_achilov"
+                                android:text="Mashkhura_Ergasheva"
                                 android:textSize="12sp" />
                         </LinearLayout>
                     </LinearLayout>
-
                 </LinearLayout>
-
                 <LinearLayout
                     android:background="@drawable/rounder_corner_2"
                     android:id="@+id/pochta"
@@ -375,20 +372,17 @@
                                 android:text="Elektron-pochata orqali bog'lanish"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
-
                             <TextView
                                 android:textColor="@color/black"
                                 android:textStyle="bold"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="3dp"
-                                android:text="achilojavokhir@gmail.com"
+                                android:text="mashxuraxonergasheva@gmail.com"
                                 android:textSize="12sp" />
-
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
             </ScrollView>
         </LinearLayout>

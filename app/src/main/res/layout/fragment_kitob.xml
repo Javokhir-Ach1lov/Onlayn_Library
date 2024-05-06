@@ -74,7 +74,9 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="animateButton"> >
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -165,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/homeName"
-                        android:text="Xorija dabiyotlar"
+                        android:text="Xorijiy adabiyotlar"
                         android:textSize="18sp"
                         android:textColor="@color/lavender"
                         android:fontFamily="@font/poppinssemibold"

@@ -20,6 +20,8 @@ class Profil_book : Fragment() {
     ): View? {
         binding = FragmentProfilBookBinding.inflate(layoutInflater)
 
+        
+
         binding.telephon.setOnClickListener {
             val intent = Intent(Intent.ACTION_DIAL).apply {
                 data = Uri.parse("tel:+998 90 141 73 31")
@@ -27,7 +29,7 @@ class Profil_book : Fragment() {
             startActivity(intent)
         }
         binding.github.setOnClickListener {
-            val username = "Javokhir-Ach1lov" // GitHub profil nomini yozing
+            val username = "Ergasheva_Mashxura" // GitHub profil nomini yozing
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/$username"))
             startActivity(intent)
         }
@@ -40,7 +42,7 @@ class Profil_book : Fragment() {
 
         binding.pochta.setOnClickListener {
             val intent = Intent(Intent.ACTION_SENDTO).apply {
-                data = Uri.parse("mailto:achilojavokhir@gmail.com")
+                data = Uri.parse("mailto:ergashevamashkhuraxon@gmail.com")
                 putExtra(Intent.EXTRA_SUBJECT, "Subject")
                 putExtra(Intent.EXTRA_TEXT, "Message body")
             }

@@ -33,5 +33,6 @@ class JaxonActivity : AppCompatActivity() {
             intent.putExtra("pdfUrl", "https://firebasestorage.googleapis.com/v0/b/onlayn-library-a8bf4.appspot.com/o/book%2FO'zbek%20adabiyoti%2FPirimqul%20Qodirov.%20Avlodlar%20dovoni%20(roman).pdf?alt=media&token=7507c52c-ccb8-4308-b20c-621d33018ee2")
             startActivity(intent)
         }
+
     }
 }

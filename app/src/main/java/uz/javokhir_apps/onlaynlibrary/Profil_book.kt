@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import uz.javokhir_apps.onlaynlibrary.databinding.FragmentProfilBookBinding
 
 class Profil_book : Fragment() {
@@ -29,25 +30,24 @@ class Profil_book : Fragment() {
             startActivity(intent)
         }
         binding.github.setOnClickListener {
-            val username = "Ergasheva_Mashxura" // GitHub profil nomini yozing
+            val username = "ErgashevaMashxura" // GitHub profil nomini yozing
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/$username"))
             startActivity(intent)
         }
 
         binding.telegram.setOnClickListener {
-            val telegramUsername = "MashkhuraErgasheva"
+            val telegramUsername = "Mashkhurakhon_Ergasheva"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/$telegramUsername"))
             startActivity(intent)
         }
 
         binding.pochta.setOnClickListener {
             val intent = Intent(Intent.ACTION_SENDTO).apply {
-                data = Uri.parse("mailto:ergashevamashkhuraxon@gmail.com")
+                data = Uri.parse("mailto:emashxuraxon@gmail.com")
                 putExtra(Intent.EXTRA_SUBJECT, "Subject")
                 putExtra(Intent.EXTRA_TEXT, "Message body")
             }
         }
-
         return binding.root
     }
 }

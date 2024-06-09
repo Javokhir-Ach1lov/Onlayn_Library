@@ -38,7 +38,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/qissa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -47,14 +47,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="O'tgan kunlar Q"
+                            android:text="Saraton"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Abdulla Qodiriy"/>
+                            android:text="Nosir Fozilov"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -82,7 +82,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/qissa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -91,14 +91,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kecha va Kunduz"
+                            android:text="Qorxat"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Cho'lpon"/>
+                            android:text="Nosir Fozilov"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -126,7 +126,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/qissa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -135,14 +135,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="O'tgan kunlar"
+                            android:text="Tashvish"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Abdulla Qodiriy"/>
+                            android:text="Nosir Fozilov"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -170,7 +170,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/qissa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -179,14 +179,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kecha va Kunduz"
+                            android:text="Iblis devori"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Cho'lpon"/>
+                            android:text="Tohir Malik"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -214,7 +214,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/qissa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -223,14 +223,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="O'tgan kunlar"
+                            android:text="G'ildirak"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Abdulla Qodiriy"/>
+                            android:text="Said Ahmad"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView
@@ -258,7 +258,7 @@
                         android:layout_height="30dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/hh"/>
+                        android:src="@drawable/qissa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -267,14 +267,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kecha va Kunduz"
+                            android:text="Tun panjaralari"
                             android:textStyle="bold"
                             android:textSize="20sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Cho'lpon"/>
+                            android:text="Nazar Eshonqul"/>
                     </LinearLayout>
                 </LinearLayout>
                 <ImageView

@@ -84,7 +84,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/hh" />
+                        android:src="@drawable/images" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -146,7 +146,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha" />
+                        android:src="@drawable/images" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -207,7 +207,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha" />
+                        android:src="@drawable/images" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -268,7 +268,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha" />
+                        android:src="@drawable/images" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -329,7 +329,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha" />
+                        android:src="@drawable/images" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -342,7 +342,7 @@
                             android:layout_height="wrap_content"
                             android:text="Jannat onalar oyog' ostida"
                             android:textColor="@color/black"
-                            android:textSize="26sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -390,7 +390,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:layout_marginStart="20dp"
-                        android:src="@drawable/kecha" />
+                        android:src="@drawable/images" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"

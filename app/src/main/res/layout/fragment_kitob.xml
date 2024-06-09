@@ -74,15 +74,13 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:clickable="true"
-                    android:onClick="animateButton"> >
+                    android:layout_height="match_parent">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/clothingName"
-                        android:text="Uzbek adabiyoti"
+                        android:text="O'zbek adabiyoti"
                         android:textSize="18sp"
                         android:textColor="@color/lavender"
                         android:fontFamily="@font/poppinssemibold"
@@ -118,7 +116,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/elecName"
-                        android:text="Jaxon adabiyoti"
+                        android:text="Jahon adabiyoti"
                         android:textSize="18sp"
                         android:textColor="@color/lavender"
                         android:fontFamily="@font/poppinssemibold"
@@ -168,7 +166,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/homeName"
                         android:text="Xorijiy adabiyotlar"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textColor="@color/lavender"
                         android:fontFamily="@font/poppinssemibold"
                         android:layout_marginTop="10dp"

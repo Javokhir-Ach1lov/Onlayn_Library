@@ -69,6 +69,7 @@ dependencies {
     implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
     implementation ("com.android.support:design:28.0.0-alpha3")
     implementation ("com.google.android.gms:play-services-ads:20.5.0")
-
+    implementation ("com.github.barteksc:android-pdf-viewer:3.2.0-beta.1")
+    implementation ("com.google.android.gms:play-services-ads:20.1.0")
 
 }

@@ -350,7 +350,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Tonglar edi sokin bu yerda"
-                            android:textSize="26sp"
+                            android:textSize="22sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -434,7 +434,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Sabot ortidagi manzil"
-                            android:textSize="26sp"
+                            android:textSize="22sp"
                             android:textStyle="bold" />
 
                         <TextView

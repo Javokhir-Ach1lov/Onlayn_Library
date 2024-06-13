@@ -118,14 +118,6 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -180,13 +172,6 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -218,7 +203,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Yulduzli tunlar"
+                            android:text="Boburnoma"
                             android:textColor="@color/black"
                             android:textSize="26sp"
                             android:textStyle="bold" />
@@ -227,7 +212,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
-                            android:text="Pirimqul Qodirov"
+                            android:text="Zahriddin Muhammad Bobur"
                             android:textStyle="bold" />
 
                         <TextView
@@ -241,13 +226,6 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginTop="28dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -301,14 +279,6 @@
                             android:textColor="#E11E1E" />
                     </LinearLayout>
                 </LinearLayout>
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginTop="28dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -363,14 +333,6 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginTop="28dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
-
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/btn6"
@@ -424,13 +386,7 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginTop="28dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/icons" />
+
 
             </RelativeLayout>
 

@@ -7,7 +7,7 @@
     <item
         android:id="@+id/video"
         android:title="Video"
-        android:icon="@drawable/video"/>
+        android:icon="@drawable/icons"/>
     <item
         android:id="@+id/book"
         android:title="Book"
